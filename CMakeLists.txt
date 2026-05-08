@@ -1,0 +1,21 @@
+SET(SOURCES ui_Screen1.c
+    ui_Screen2.c
+    ui_Screen3.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_grid_png.c
+    ui_img_posisistop_png.c
+    ui_img_posisistart_png.c
+    ui_img_riwayat_png.c
+    ui_img_user_png.c
+    ui_img_hearticon_png.c
+    ui_img_clockicon_png.c
+    ui_img_batteryicon_png.c
+    ui_img_logo_kmnksjkt3_png.c
+    ui_img_buang_png.c
+    ui_img_back_png.c
+    ui_img_user_logo_png.c
+    ui_img_ceklis_png.c)
+
+add_library(ui ${SOURCES})
